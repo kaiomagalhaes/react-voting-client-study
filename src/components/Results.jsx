@@ -3,7 +3,7 @@ import React from 'react';
 import ReactPureRenderMixin from 'react-addons-pure-render-mixin';
 import Winner from './Winner';
 
-export const Results = default React.createClass({
+export const Results = React.createClass({
   mixins: [ReactPureRenderMixin],
 
   getPair: function() {
